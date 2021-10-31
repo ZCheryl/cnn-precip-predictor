@@ -1,6 +1,6 @@
 ## cnn-precip-predictor
 
-This code accompanies the project to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast from the forecast of a larger spatial region. 
+This project aims to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast from the forecast of a larger spatial region. 
 
 **Data** original data obtained from (https://psl.noaa.gov/forecasts/reforecast2/download.html). GEFS went through an update from v2 to v12 in Sept. 2020. `GEFS` folder contains preprocesing files. `` aggregates GEFS forecast to daily forecasts. `` convert data to tensors as input to the model.
 
