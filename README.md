@@ -2,7 +2,7 @@
 
 This project aims to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast from the forecast of a larger spatial region. 
 
-**Data** original data obtained from (https://psl.noaa.gov/forecasts/reforecast2/download.html). GEFS went through an update from v2 to v12 in Sept. 2020. `GEFS` folder contains preprocesing files. `` aggregates GEFS forecast to daily forecasts. `` convert data to tensors as input to the model.
+**Data** obtained from (https://psl.noaa.gov/forecasts/reforecast2/download.html). GEFS went through an update from v2 to v12 in Sept. 2020. `GEFS` folder contains preprocesing files. `` aggregates GEFS forecast to daily forecasts. `` convert data to tensors as input to the model.
 
 **Experiment**: 
 
@@ -11,9 +11,12 @@ This project aims to improve preiciptation forecast from GEFS with deep learning
 **Analysis** evaluates model results with F1 score and ROC, comparing with the benchmarks. 
 
 **Results** gathers all .csv files resulted from the experiment, benchmark and analysis.
-"classifier_outcome" contains probabilistic predictions derived from model (1985-2019)
-"confusion_matrix" contains binary results from models and benchmarks
-"8_outcomes" contains 2*2*2 contigency table comparing ERA5 ground truth, bias-corrected GEFS and model results.
+
+`classifier_outcome` contains probabilistic predictions derived from model (1985-2019)
+
+`confusion_matrix` contains binary results from models and benchmarks
+
+`8_outcomes` contains 2*2*2 contigency table comparing ERA5 ground truth, bias-corrected GEFS and model results.
 
 **Saliency** allows daily/categorical investigation on which input "pixels" contribute to a positive/negative classification.
 
