@@ -12,11 +12,11 @@ This project aims to improve preiciptation forecast from GEFS with deep learning
 
 **Results** gathers all .csv files resulted from the experiment, benchmark and analysis.
 
-`classifier_outcome` contains probabilistic predictions derived from model (1985-2019)
+-`classifier_outcome` contains probabilistic predictions derived from model (1985-2019)
 
-`confusion_matrix` contains binary results from models and benchmarks
+-`confusion_matrix` contains binary results from models and benchmarks
 
-`8_outcomes` contains 2*2*2 contigency table comparing ERA5 ground truth, bias-corrected GEFS and model results.
+-`8_outcomes` contains 2*2*2 contigency table comparing ERA5 ground truth, bias-corrected GEFS and model results.
 
 **Saliency** allows daily/categorical investigation on which input "pixels" contribute to a positive/negative classification.
 
