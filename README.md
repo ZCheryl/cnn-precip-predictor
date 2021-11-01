@@ -7,7 +7,7 @@ This project aims to improve preiciptation forecast from GEFS with deep learning
 **Data** obtained from (https://psl.noaa.gov/forecasts/reforecast2/download.html). GEFS went through an update from v2 to v12 in Sept. 2020. `GEFS` folder contains preprocesing files. 
 `data/gefs-merge-two-files.py` aggregates GEFS forecast to daily forecasts. 
 `data/to_tensor.py` converts preicpitation data to tensors input. 
-In addition to the preicipitation layer, two more layers of lon/lat features are included. (Currently this procedure is done in the `experiment` file in Keras folder).
+In addition to the preicipitation layer, two more layers of lon/lat features are included. (Currently this procedure is done by  `keras_experiment.py` in Keras folder).
 
 **Keras** contains CNN and MLP models to generate probablistic predictions for target region. 
 
