@@ -27,7 +27,7 @@ In addition to the preicipitation layer, two more layers of lon/lat features are
 
 **Saliency** allows daily/categorical investigation on which input "pixels" contribute to a positive/negative classification.
 
-**Figures** contains codes to generate all figures in the figures.pdf, including visualization of analysis, saliency, reliability diagram, specific examples, etc. Jupyter notebook `` helps visualize filters and features maps.
+**Figures** contains codes to generate all figures in the figures.pdf, including visualization of analysis, saliency, reliability diagram, specific examples and visualization of filters and features maps.
 
 Package requirements: xarray, keras, cartopy
 Tensorflow version: 2.3.0
