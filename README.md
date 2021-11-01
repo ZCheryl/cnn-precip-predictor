@@ -1,5 +1,7 @@
 ## cnn-precip-predictor
 
+![1](https://user-images.githubusercontent.com/17866544/139699232-11f22932-6574-46b9-9a70-580a7a972922.png)
+
 ![fig 3](https://user-images.githubusercontent.com/17866544/139566152-78f998df-b3f7-4ca2-b259-9068619cf8c6.png)
 
 This project aims to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast from the forecast of a larger spatial region. 
