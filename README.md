@@ -1,10 +1,8 @@
 ## cnn-precip-predictor
 
-![1](https://user-images.githubusercontent.com/17866544/139699232-11f22932-6574-46b9-9a70-580a7a972922.png)
+![image](https://user-images.githubusercontent.com/17866544/139699419-69c5a36c-ef5a-4463-ad0e-affe616006ac.png)
 
-![fig 3](https://user-images.githubusercontent.com/17866544/139566152-78f998df-b3f7-4ca2-b259-9068619cf8c6.png)
-
-This project aims to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast from the forecast of a larger spatial region. 
+This project aims to improve preiciptation forecast from GEFS with deep learning methods. With the capability of connecting spatial patterns to abstract concepts, CNN could potentially provide improvement to medium range regional forecast of Sacramento River Basin from the forecasts of a larger spatial region. 
 
 **Data** obtained from (https://psl.noaa.gov/forecasts/reforecast2/download.html). GEFS went through an update from v2 to v12 in Sept. 2020. `GEFS` folder contains preprocesing files. 
 `data/gefs-merge-two-files.py` aggregates GEFS forecast to daily forecasts. 
@@ -36,3 +34,6 @@ Tensorflow version: 2.3.0
 Python 3.7.10
 
 Reference: https://github.com/jdherman/cnn-streamflow-forecast
+
+![fig 3](https://user-images.githubusercontent.com/17866544/139566152-78f998df-b3f7-4ca2-b259-9068619cf8c6.png)
+
